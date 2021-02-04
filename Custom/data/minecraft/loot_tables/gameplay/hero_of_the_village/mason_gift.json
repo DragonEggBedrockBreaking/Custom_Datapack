@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:gameplay",
+	"pools": [{
+		"rolls": 1,
+		"entries": [
+			{
+				"type": "minecraft:item",
+				"weight": 1,
+				"functions": [{
+						"function": "minecraft:set_count",
+						"count": 5
+					}
+				],
+				"name": "minecraft:clay"
+			}
+		]
+	}
+  ]
+}

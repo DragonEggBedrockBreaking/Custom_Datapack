@@ -1,0 +1,129 @@
+{
+	"type": "minecraft:gameplay",
+	"pools": [{
+		"rolls": 1,
+		"entries": [{
+				"type": "minecraft:item",
+				"weight": 6,
+				"functions": [{
+						"function": "minecraft:set_count",
+						"count": {
+							"min": 2.0,
+							"max": 7.0
+						}
+					}
+				],
+				"name": "minecraft:quartz"
+			},
+			{
+				"type": "minecraft:item",
+				"weight": 6,
+				"functions": [{
+						"function": "minecraft:set_count",
+						"count": {
+							"min": 2.0,
+							"max": 7.0
+						}
+					}
+				],
+				"name": "minecraft:nether_brick"
+			},
+			{
+				"type": "minecraft:item",
+				"weight": 6,
+				"functions": [{
+						"function": "minecraft:set_count",
+						"count": {
+							"min": 2.0,
+							"max": 7.0
+						}
+					}
+				],
+				"name": "minecraft:crying_obsidian"
+			},
+			{
+				"type": "minecraft:item",
+				"weight": 6,
+				"functions": [{
+						"function": "minecraft:set_count",
+						"count": {
+							"min": 2.0,
+							"max": 7.0
+						}
+					}
+				],
+				"name": "minecraft:spectral_arrow"
+			},
+			{
+				"type": "minecraft:item",
+				"weight": 6,
+				"functions": [{
+						"function": "minecraft:set_count",
+						"count": {
+							"min": 2.0,
+							"max": 7.0
+						}
+					}
+				],
+				"name": "minecraft:soul_sand"
+			},
+			{
+				"type": "minecraft:item",
+				"weight": 6,
+				"functions": [{
+						"function": "minecraft:set_count",
+						"count": {
+							"min": 2.0,
+							"max": 7.0
+						}
+					}
+				],
+				"name": "minecraft:soul_soil"
+			},
+			{
+				"type": "minecraft:item",
+				"weight": 6,
+				"functions": [{
+						"function": "minecraft:set_count",
+						"count": {
+							"min": 2.0,
+							"max": 7.0
+						}
+					}
+				],
+				"name": "minecraft:fire_charge"
+			},
+			{
+				"type": "minecraft:item",
+				"weight": 6,
+				"functions": [{
+					"function": "minecraft:set_count",
+					"count": {
+						"min": 2.0,
+						"max": 7.0
+					}
+				}
+				],
+				"name": "minecraft:obsidian"
+			},
+			{
+				"type": "minecraft:item",
+				"weight": 1,
+				"name": "minecraft:netherite_hoe"
+			},
+			{
+				"type": "minecraft:item",
+				"weight": 2,
+				"functions": [{
+						"function": "minecraft:enchant_randomly",
+						"enchantments": [
+							"minecraft:soul_speed"
+						]
+					}
+				],
+				"name": "minecraft:book"
+			}
+		]
+	}
+  ]
+}
